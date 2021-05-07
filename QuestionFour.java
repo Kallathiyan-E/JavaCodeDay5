@@ -7,7 +7,7 @@ public class QuestionFour {
 	public static int[] sort(int[] tempArray,int size) {
 		for(int i=0;i<size;i++) {
 			for(int j=i+1;j<size;j++) {
-				if(tempArray[i]<tempArray[j]) {
+				if(tempArray[i]>tempArray[j]) {
 					tempArray[i]+=tempArray[j];
 					tempArray[j]=tempArray[i]-tempArray[j];
 					tempArray[i]=tempArray[i]-tempArray[j];
